@@ -1,0 +1,19 @@
+=============================================
+Valicoc - Validation Code Check and save
+=============================================
+This module uses module `re` to match more-than-four-digits-validation-code
++-------------------+------------+
+|Message|Result|
++===================+============+
+|【***】您好，本次登录验证码为103562，请注意查收|103562|
++------------------+-------------+
+|【***】短信验证码 806549，请在十分钟内完成验证。|806549|
++------------------+-------------+
+...
+
+Usage:
+`import valicoc
+valicoc.get("Your message")`
+
+This module is only for Chinese messages, and messages have to have
+keyword `验证码`.
