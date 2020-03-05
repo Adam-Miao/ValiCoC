@@ -9,8 +9,7 @@ setup(
     author_email='Adammiao@outlook.com',
     packages=find_packages(),
     classifiers=[
-        "Programming Language :: Python :: 3",
-        "License :: Free for non-comercial use"
+        "Programming Language :: Python :: 3"
     ],
     url='https://github.com/Adam-Miao/ValiCoC/'
 )
